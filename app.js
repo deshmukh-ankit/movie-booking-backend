@@ -13,7 +13,7 @@ const movieRouter=require('./routes/moviesRoutes');
 const bookingRouter=require('./routes/bookingRoutes');
 const cors=require('cors');
 //PORT
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 'https://movie-booking-backend-pqjg.onrender.com';
 app.use(cors());
 
 
